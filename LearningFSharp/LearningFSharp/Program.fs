@@ -2,7 +2,12 @@
 
 open System
 
+let succ n = n + 1
+
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    printfn "---------- Exercise One ----------"
+    printfn "%d" (Code.Exercise1.increment 11)
+     
+    printfn "\nHello World from F#!"
     0 // return an integer exit code
