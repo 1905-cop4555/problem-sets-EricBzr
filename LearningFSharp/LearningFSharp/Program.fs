@@ -11,6 +11,8 @@ let main argv =
 
     printfn "---------- Exercise Two ----------"
     printfn "%f" (Code.Exercise3.power (2.0, 4))
+
+    printfn "---------- Exercise Four ----------"
      
     printfn "\nHello World from F#!"
     0 // return an integer exit code

@@ -25,3 +25,8 @@ module Exercise3 =
       if snd pair = 0
         then 1.0
       else fst pair * power (fst pair, (snd pair) - 1)
+      
+module Exercise4 = 
+
+   let removeOdds list = 
+      List.filter (fun x -> x%2 = 0) list
