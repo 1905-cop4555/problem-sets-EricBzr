@@ -30,3 +30,11 @@ module Exercise4 =
 
    let removeOdds list = 
       List.filter (fun x -> x%2 = 0) list
+
+module Exercise5 =
+
+   let rec allOdds list =
+      if List.head list % 2 = 0
+        then []
+      else (List.head list)::(allOdds (List.tail list))
+      
