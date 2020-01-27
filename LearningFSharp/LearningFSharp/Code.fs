@@ -37,4 +37,14 @@ module Exercise5 =
       if List.head list % 2 = 0
         then []
       else (List.head list)::(allOdds (List.tail list))
+
+module Exercise6 =
+
+   let prod n = n * n
+
+   let sub2 n = n - 2
+
+   let rec pattern = function
+   | 0 -> []
+   | n -> n :: [sub2 n]
       
