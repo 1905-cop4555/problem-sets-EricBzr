@@ -47,4 +47,12 @@ module Exercise6 =
    let rec pattern = function
    | 0 -> []
    | n -> n :: [sub2 n]
+
+module Exercise7 =
+
+   let rec fib = function
+   | 1 -> 0
+   | 2 -> 1
+   | i -> fib(i - 2) + fib(i - 1)
+
       
